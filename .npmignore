@@ -1,0 +1,10 @@
+test
+.babelrc
+.editorconfig
+.eslintignore
+.eslintrc.js
+.travis.yml
+webpack.config.js
+package-lock.json
+_config.yml
+.npmignore
