@@ -1,0 +1,29 @@
+{
+  "name": "vue-gaspard",
+  "description": "DOM helpers plugin for Vue.js",
+  "main": "dist/gaspard.umd.js",
+  "authors": [
+    "Luca Perret <perret.luca@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "plugin",
+    "jquery",
+    "dom",
+    "helper",
+    "document",
+    "selector",
+    "attribute",
+    "position",
+    "selector"
+  ],
+  "homepage": "https://github.com/lucaperret/vue-gaspard",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
