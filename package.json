@@ -1,6 +1,6 @@
 {
   "name": "vue-gaspard",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "DOM helpers plugin for Vue.js",
   "homepage": "https://github.com/lucaperret/vue-gaspard",
   "bugs": "https://github.com/lucaperret/vue-gaspard/issues",
