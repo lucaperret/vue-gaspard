@@ -1,5 +1,5 @@
 # Vue-gaspard
-> DOM helpers plugin for Vue.js
+> DOM helpers plugin for Vue.js using [gaspard](https://github.com/lucaperret/gaspard)
 
 [![npm version](https://badge.fury.io/js/vue-gaspard.svg)](https://badge.fury.io/js/vue-gaspard)
 [![vue-gaspard size](https://badges.herokuapp.com/size/npm/vue-gaspard/dist/vue-gaspard.umd.js?gzip=true)](https://www.npmjs.com/package/vue-gaspard)
