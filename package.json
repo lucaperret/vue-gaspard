@@ -19,7 +19,7 @@
     "position",
     "selector"
   ],
-  "main": "dist/gaspard.umd.js",
+  "main": "dist/vue-gaspard.umd.js",
   "module": "src/index.js",
   "scripts": {
     "dev": "webpack-dev-server --open -d",

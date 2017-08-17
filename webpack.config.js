@@ -71,16 +71,19 @@ const configProduction = {
   output: {
     filename: 'vue-gaspard.umd.js',
     path: resolve('dist'),
-    library: 'vue-gaspard',
+    library: {
+      root: 'VueGaspard',
+      amd: 'vue-gaspard',
+      commonjs: 'common-vue-gaspard'
+    },
     libraryTarget: 'umd'
   },
   externals: {
-    vue: 'vue',
-    gaspard: 'gaspard'
-  },
-  resolve: {
-    alias: {
-      'vue$': 'vue/dist/vue.esm.js'
+    gaspard: {
+      root: 'Gaspard',
+      amd: 'gaspard',
+      commonjs: 'common-gaspard',
+      commonjs2: 'common-gaspard'
     }
   },
   devtool: 'source-map',

@@ -9,9 +9,9 @@
 
 ### Installing
 
-npm | yarn | bower | jsDelivr
+npm | yarn | bower | unpkg
 ------------ | ------------- | ------------- | -------------
-npm install vue-gaspard | yarn add vue-gaspard | bower install vue-gaspard |  [vue-gaspard.umd.js](https://cdn.jsdelivr.net/npm/vue-gaspard@latest/dist/vue-gaspard.umd.js) |
+npm install vue-gaspard | yarn add vue-gaspard | bower install vue-gaspard |  [vue-gaspard.umd.js](https://unpkg.com/vue-gaspard) |
 
 ### Usage
 
@@ -36,6 +36,23 @@ export default {
   }
 }
 ```
+
+Or use gaspard within a `<script>`
+```html
+<div id="app">Hello world !</div>
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/gaspard"></script>
+<script src="https://unpkg.com/vue-gaspard"></script>
+<script>
+  var app = new Vue({
+    el: '#app',
+    mounted () {
+      this.$g.css('background-color', 'red')
+    }
+  })
+</script>
+```
+
 
 ### Options
 
