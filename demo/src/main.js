@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App'
-import VueGaspard from 'plugin'
+import VueGaspard from '../../src'
 
 Vue.config.productionTip = false
 

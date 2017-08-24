@@ -18,8 +18,7 @@ const configDevevelopment = {
   resolve: {
     extensions: ['.js', '.vue'],
     alias: {
-      'vue$': 'vue/dist/vue.esm.js',
-      'plugin': resolve('src/index.js')
+      'vue$': 'vue/dist/vue.esm.js'
     }
   },
   module: {
