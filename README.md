@@ -11,7 +11,7 @@
 
 npm | yarn | bower | unpkg
 ------------ | ------------- | ------------- | -------------
-npm install vue-gaspard | yarn add vue-gaspard | bower install vue-gaspard |  [vue-gaspard.umd.js](https://unpkg.com/vue-gaspard) |
+npm install vue-gaspard | yarn add vue-gaspard | bower install vue-gaspard |  [vue-gaspard.umd.js](https://unpkg.com/vue-gaspard)
 
 ### Usage
 
@@ -23,7 +23,7 @@ import VueGaspard from 'vue-gaspard'
 Vue.use(VueGaspard)
 ```
 
-In any of your components:
+In any of your components (e.g. [examples](demo/src/App.vue)):
 ```javascript
 import Vue from 'vue'
 
@@ -31,8 +31,14 @@ export default {
   mounted () {
     // Use gaspard global
     Vue.$gaspard.addClass(document.documentElement, 'container')
-    // Or on this component instance
+    // On his component instance
     this.$g.css('border', '1px dashed #eb592d')
+    // On a referenced child element
+    this.$g
+      .find(this.$refs.childElement)
+      .attr('title', 'gaspard !')
+    // On a referenced child component
+    this.$refs.childComponent.$g.css('border', '1px dotted #eb592d')
   }
 }
 ```

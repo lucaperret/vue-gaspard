@@ -33,12 +33,12 @@
     "vue": "^2.0.0"
   },
   "dependencies": {
-    "gaspard": "^4.0.0"
+    "gaspard": "^4.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "babel-jest": "^20.0.3",
-    "babel-loader": "^7.1.1",
+    "babel-loader": "^7.1.2",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.0",
@@ -47,7 +47,7 @@
     "coveralls": "^2.13.1",
     "css-loader": "^0.28.5",
     "cz-conventional-changelog": "^2.0.0",
-    "eslint": "^4.2.0",
+    "eslint": "^4.5.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.9.0",
