@@ -1,4 +1,6 @@
 # Vue-gaspard
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/lucaperret/vue-gaspard.svg)](https://greenkeeper.io/)
 > DOM helpers plugin for Vue.js using [gaspard](https://github.com/lucaperret/gaspard)
 
 [![npm version](https://badge.fury.io/js/vue-gaspard.svg)](https://badge.fury.io/js/vue-gaspard)
